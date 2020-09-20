@@ -23,8 +23,9 @@ void print_n(int n) {
 }
 
 int main(void) {
+
   int integer1 = atof(readline("Enter an int: "));
-  printf("sum is %i.\n", digit_sum(integer1));
+  printf("sum of digits of %d is %i.\n", integer1, digit_sum(integer1));
   print_n(integer1);
   return 0;
 }
